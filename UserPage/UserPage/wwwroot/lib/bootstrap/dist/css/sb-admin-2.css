@@ -10523,7 +10523,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3;
   }
   body {
-    min-width: 992px !important;
+   min-width: 992px !important;
   }
   .container {
     min-width: 992px !important;
@@ -10593,8 +10593,9 @@ a:focus {
 
 .container,
 .container-fluid {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+    margin:0;
+    padding: 0;
+  
 }
 
 .scroll-to-top {
